@@ -1,39 +1,39 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js k
-  - Stateful and stateless servers k
-  - Nonblocking I/O and blocking code k
-  - Event loop phases k
-  - Event loop microtasks and macrotasks k
-  - Garbage collection k
-  - Node.js LTS schedule k
-  - I/O-bound, CPU-bound, memory-bound tasks k
-  - Interactive applications (close to real-time) k
+  - Strong and weak sides of node.js: 🎓 known
+  - Stateful and stateless servers: 🎓 known
+  - Nonblocking I/O and blocking code: 🎓 known
+  - Event loop phases: 🎓 known
+  - Event loop microtasks and macrotasks: 🎓 known
+  - Garbage collection: 🎓 known
+  - Node.js LTS schedule: 🎓 known
+  - I/O-bound, CPU-bound, memory-bound tasks: 🎓 known
+  - Interactive applications (close to real-time): 🎓 known
 - Modularity, layers and dependencies
-  - CommonJS modules u
-  - ECMAScript modules u
-  - Module `node:module` u
-  - Caching in CJS and ESM u
-  - Modules as singletons h
-  - Contexts and scripts module `node:vm` h
-  - Dependencies: `npm`, `node_modules` u
-  - Files `package.json`, `package-lock.json` u
-  - Module-based permissions model k
-  - Isolation with modularity k
-  - Dependency injection k
-  - DI containers k
-  - Coupling and cohesion k
-  - Framework agnostic approach k
+  - CommonJS modules: 🖐️ used
+  - ECMAScript modules: 🖐️ used
+  - Module `node:module`: 🖐️ used
+  - Caching in CJS and ESM: 🖐️ used
+  - Modules as singletons: 👂 heard
+  - Contexts and scripts module `node:vm`: 👂 heard
+  - Dependencies: `npm`, `node_modules`: 🖐️ used
+  - Files `package.json`, `package-lock.json`: 🖐️ used
+  - Module-based permissions model: 🎓 known
+  - Isolation with modularity: 🎓 known
+  - Dependency injection: 🎓 known
+  - DI containers: 🎓 known
+  - Coupling and cohesion: 🎓 known
+  - Framework agnostic approach: 🎓 known
 - Environment
-  - Command line arguments e
-  - Node.js CLI u
-  - Process-based permissions h
-  - Graceful shutdown h
+  - Command line arguments: 🙋 explained
+  - Node.js CLI: 🖐️ used
+  - Process-based permissions: 👂 heard
+  - Graceful shutdown: 👂 heard
   - Clustering
   - Watch filesystem changes with --watch
 - Internal API
-  - Streams API 
+  - Streams API
   - Web Streams API
   - Crypto API
   - Password hashing with crypto.scrypt
@@ -63,28 +63,28 @@
   - Endpoint throttling
   - ALPN
   - SNI callback
-  - SSL certificates u
+  - SSL certificates: 🖐️ used
   - Protocol agnostic approach
   - Fetch API
   - IncomingMessage
-  - HTTP(S) u
-  - TCP/SSL u
-  - UDP u
-  - TLS u
-  - Websocket u
-  - SSE u
-  - HTTP/3 (QUIC) u
+  - HTTP(S): 🖐️ used
+  - TCP/SSL: 🖐️ used
+  - UDP: 🖐️ used
+  - TLS: 🖐️ used
+  - Websocket: 🖐️ used
+  - SSE: 🖐️ used
+  - HTTP/3 (QUIC): 🖐️ used
   - Long polling
   - REST
   - RPC
-  - Routing e
-  - DoS e
-  - DDoS e
+  - Routing: 🙋 explained
+  - DoS: 🙋 explained
+  - DDoS: 🙋 explained
   - XSS
   - Path traversal
   - CSRF
-  - DNS e
-  - SQL injection e
+  - DNS: 🙋 explained
+  - SQL injection: 🙋 explained
   - noDelay
   - keep-alive
   - IP sticky sessions
@@ -92,30 +92,30 @@
   - Native test runner
   - Logging
   - Application configuring
-  - Testing e
-  - CI/CD e
-  - Readable e
-  - Writable e
+  - Testing: 🙋 explained
+  - CI/CD: 🙋 explained
+  - Readable: 🙋 explained
+  - Writable: 🙋 explained
   - Transform
   - Back pressure
-  - Buffer e
-  - Console e
+  - Buffer: 🙋 explained
+  - Console: 🙋 explained
   - Inspector
 - Data access
-  - Data access layer e
-  - Repository e
+  - Data access layer: 🙋 explained
+  - Repository: 🙋 explained
   - Active record
   - Query builder
   - Object-Relational Mapping
-  - CRUD e
+  - CRUD: 🙋 explained
   - DTO
 - Error handling and debugging
-  - `Error` k
-  - `error.cause` k
-  - `error.code` k
-  - `error.message` k
-  - `error.stack` k
-  - `Error.captureStackTrace` k
+  - `Error`: 🎓 known
+  - `error.cause`: 🎓 known
+  - `error.code`: 🎓 known
+  - `error.message`: 🎓 known
+  - `error.stack`: 🎓 known
+  - `Error.captureStackTrace`: 🎓 known
   - How to avoid mixins
   - Uncaught exceptions
   - Heap dump
