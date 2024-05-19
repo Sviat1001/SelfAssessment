@@ -1,39 +1,39 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and blocking code
-  - Event loop phases
-  - Event loop microtasks and macrotasks
-  - Garbage collection
-  - Node.js LTS schedule
-  - I/O-bound, CPU-bound, memory-bound tasks
-  - Interactive applications (close to real-time)
+  - Strong and weak sides of node.js k
+  - Stateful and stateless servers k
+  - Nonblocking I/O and blocking code k
+  - Event loop phases k
+  - Event loop microtasks and macrotasks k
+  - Garbage collection k
+  - Node.js LTS schedule k
+  - I/O-bound, CPU-bound, memory-bound tasks k
+  - Interactive applications (close to real-time) k
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - Module `node:module`
-  - Caching in CJS and ESM
-  - Modules as singletons
-  - Contexts and scripts module `node:vm`
-  - Dependencies: `npm`, `node_modules`
-  - Files `package.json`, `package-lock.json`
-  - Module-based permissions model
-  - Isolation with modularity
-  - Dependency injection
-  - DI containers
-  - Coupling and cohesion
-  - Framework agnostic approach
+  - CommonJS modules u
+  - ECMAScript modules u
+  - Module `node:module` u
+  - Caching in CJS and ESM u
+  - Modules as singletons h
+  - Contexts and scripts module `node:vm` h
+  - Dependencies: `npm`, `node_modules` u
+  - Files `package.json`, `package-lock.json` u
+  - Module-based permissions model k
+  - Isolation with modularity k
+  - Dependency injection k
+  - DI containers k
+  - Coupling and cohesion k
+  - Framework agnostic approach k
 - Environment
-  - Command line arguments
-  - Node.js CLI
-  - Process-based permissions
-  - Graceful shutdown
+  - Command line arguments e
+  - Node.js CLI u
+  - Process-based permissions h
+  - Graceful shutdown h
   - Clustering
   - Watch filesystem changes with --watch
 - Internal API
-  - Streams API
+  - Streams API 
   - Web Streams API
   - Crypto API
   - Password hashing with crypto.scrypt
@@ -63,28 +63,28 @@
   - Endpoint throttling
   - ALPN
   - SNI callback
-  - SSL certificates
+  - SSL certificates u
   - Protocol agnostic approach
   - Fetch API
   - IncomingMessage
-  - HTTP(S)
-  - TCP/SSL
-  - UDP
-  - TLS
-  - Websocket
-  - SSE
-  - HTTP/3 (QUIC)
+  - HTTP(S) u
+  - TCP/SSL u
+  - UDP u
+  - TLS u
+  - Websocket u
+  - SSE u
+  - HTTP/3 (QUIC) u
   - Long polling
   - REST
   - RPC
-  - Routing
-  - DoS
-  - DDoS
+  - Routing e
+  - DoS e
+  - DDoS e
   - XSS
   - Path traversal
   - CSRF
-  - DNS
-  - SQL injection
+  - DNS e
+  - SQL injection e
   - noDelay
   - keep-alive
   - IP sticky sessions
@@ -92,30 +92,30 @@
   - Native test runner
   - Logging
   - Application configuring
-  - Testing
-  - CI/CD
-  - Readable
-  - Writable
+  - Testing e
+  - CI/CD e
+  - Readable e
+  - Writable e
   - Transform
   - Back pressure
-  - Buffer
-  - Console
+  - Buffer e
+  - Console e
   - Inspector
 - Data access
-  - Data access layer
-  - Repository
+  - Data access layer e
+  - Repository e
   - Active record
   - Query builder
   - Object-Relational Mapping
-  - CRUD
+  - CRUD e
   - DTO
 - Error handling and debugging
-  - `Error`
-  - `error.cause`
-  - `error.code`
-  - `error.message`
-  - `error.stack`
-  - `Error.captureStackTrace`
+  - `Error` k
+  - `error.cause` k
+  - `error.code` k
+  - `error.message` k
+  - `error.stack` k
+  - `Error.captureStackTrace` k
   - How to avoid mixins
   - Uncaught exceptions
   - Heap dump
