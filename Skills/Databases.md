@@ -1,21 +1,21 @@
 ## Databases
 
 - Theory and concepts
-  - Data types
+  - Data types k
   - Performance tuning
-  - Migrations
+  - Migrations k
   - Schema versioning
   - Backup and recovery
   - Database scalability
   - Relational databases
-  - Key-value store
-  - Tuple store
-  - Graph databases
-  - Object databases
-  - Column databases
-  - Navigational databases
-  - Hierarchical databases
-  - In-memory databases
+  - Key-value store k
+  - Tuple store k
+  - Graph databases k
+  - Object databases k
+  - Column databases k
+  - Navigational databases k
+  - Hierarchical databases k
+  - In-memory databases k
   - Inverted index
   - Data control language (DCL)
   - Data definition language (DDL)
@@ -24,43 +24,43 @@
 - Relational
   - Entity-Relationship Diagram
   - Normal forms
-  - Indexing
-  - Primary keys
-  - Foreign keys
-  - Transactions
-  - Views
+  - Indexing k
+  - Primary keys k
+  - Foreign keys k
+  - Transactions k
+  - Views k
   - Subqueries
   - Stored procedures
-  - SQL functions
-  - Materialized views
+  - SQL functions k
+  - Materialized views k
   - Replications
   - Virtualization
 - SQL
-  - `SELECT`
-  - `INSERT`
-  - `UPDATE`
-  - `DELETE`
-  - `LIMIT`
-  - `OFFSET`
-  - `ORDER BY`
-  - `GROUP BY`
-  - `HAVING`
-  - `EXISTS`
-  - `JOIN`
-  - `INNER JOIN`
-  - `LEFT JOIN`
-  - `RIGHT JOIN`
-  - `UNION`
-  - `DISTINCT`
-  - `WHERE`
-  - `LIKE`
-  - `IN`
-  - `BETWEEN`
-  - `CREATE TABLE`
-  - `ALTER TABLE`
-  - `DROP TABLE`
-  - `PRIMARY KEY`
-  - `FOREIGN KEY`
+  - `SELECT` k
+  - `INSERT` k
+  - `UPDATE` k
+  - `DELETE` k
+  - `LIMIT` k
+  - `OFFSET` k
+  - `ORDER BY` k
+  - `GROUP BY` k
+  - `HAVING` k
+  - `EXISTS` k
+  - `JOIN` k
+  - `INNER JOIN` k
+  - `LEFT JOIN` k
+  - `RIGHT JOIN` k
+  - `UNION` k
+  - `DISTINCT` k
+  - `WHERE` k
+  - `LIKE` k
+  - `IN` k
+  - `BETWEEN` k
+  - `CREATE TABLE` k
+  - `ALTER TABLE` k
+  - `DROP TABLE` k
+  - `PRIMARY KEY` k
+  - `FOREIGN KEY` k
   - `CHECK`
   - `DEFAULT`
   - `INDEX`
@@ -70,18 +70,18 @@
   - `DENY`
   - `EXPLAIN`
 - Engines
-  - PostgreSQL
-  - Oracle
-  - MySQL
-  - MariaDB
-  - MS SQL Server
-  - Redis
-  - Rabbit
-  - MongoDB
+  - PostgreSQL h
+  - Oracle k
+  - MySQL u
+  - MariaDB h
+  - MS SQL Server h
+  - Redis h
+  - Rabbit h
+  - MongoDB k
   - Memcached
   - Riak
   - DB2
-  - SQLite
+  - SQLite k
   - DynamoDB
   - Firebase
 - Data engineering
@@ -89,6 +89,6 @@
   - Business intelligence
   - Big data
   - Data analysis
-  - AI tools
-  - Cloud databases
-  - Data Visualization
+  - AI tools k
+  - Cloud databases k
+  - Data Visualization h
